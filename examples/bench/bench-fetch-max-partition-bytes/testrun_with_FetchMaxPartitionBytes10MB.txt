@@ -1,0 +1,50 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes
+BenchmarkPollRecords 	       1	3829666416 ns/op	655719896 B/op	   61927 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3738498583 ns/op	655709560 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3645801375 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3726165833 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3678846000 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3667193375 ns/op	655717760 B/op	   61913 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3730089834 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3658629292 ns/op	655717760 B/op	   61913 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3697711792 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	4036467625 ns/op	655725088 B/op	   62040 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3633774709 ns/op	655717944 B/op	   61915 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3737647833 ns/op	655717752 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3755905375 ns/op	655717824 B/op	   61914 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3632494417 ns/op	655717912 B/op	   61914 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+BenchmarkPollRecords 	       1	3633394459 ns/op	655709560 B/op	   61912 allocs/op
+--- BENCH: BenchmarkPollRecords
+    client_benchmark_test.go:72: Start topic population
+PASS
+ok  	github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes	150.416s

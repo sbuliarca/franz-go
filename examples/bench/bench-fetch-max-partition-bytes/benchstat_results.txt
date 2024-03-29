@@ -1,0 +1,14 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes
+            │ testrun_normal.txt │ testrun_with_FetchMaxPartitionBytes10MB.txt │
+            │       sec/op       │        sec/op         vs base               │
+PollRecords           3.396 ± 1%             3.698 ± 1%  +8.89% (p=0.000 n=15)
+
+            │ testrun_normal.txt │ testrun_with_FetchMaxPartitionBytes10MB.txt │
+            │        B/op        │        B/op         vs base                 │
+PollRecords         126.6Mi ± 0%         625.3Mi ± 0%  +393.82% (p=0.000 n=15)
+
+            │ testrun_normal.txt │ testrun_with_FetchMaxPartitionBytes10MB.txt │
+            │     allocs/op      │     allocs/op       vs base                 │
+PollRecords          13.75k ± 0%          61.91k ± 0%  +350.37% (p=0.000 n=15)
