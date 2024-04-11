@@ -51,6 +51,7 @@ func BenchmarkPollRecords(b *testing.B) {
 		kgo.BlockRebalanceOnPoll(),
 		//	use 10MB
 		//kgo.FetchMaxPartitionBytes(10*1024*1024),
+		kgo.WithHooks(&recordBatchReadHook{b: b}),
 	)
 
 	require.NoError(b, err)
@@ -66,6 +67,16 @@ func BenchmarkPollRecords(b *testing.B) {
 			return
 		}
 	}
+}
+
+type recordBatchReadHook struct {
+	b *testing.B
+}
+
+func (h *recordBatchReadHook) OnFetchBatchRead(meta kgo.BrokerMetadata, topic string, partition int32, metrics kgo.FetchBatchMetrics) {
+	h.b.ReportMetric(float64(metrics.CompressedBytes/h.b.N), "compressedbytes/op")
+	h.b.ReportMetric(float64(metrics.UncompressedBytes/h.b.N), "uncompressedbytes/op")
+	h.b.ReportMetric(float64(metrics.NumRecords), "recs/op")
 }
 
 func populateTopic(ctx context.Context, t *testing.B, broker string, topicName string) error {

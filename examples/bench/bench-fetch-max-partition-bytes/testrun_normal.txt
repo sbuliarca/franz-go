@@ -1,50 +1,50 @@
 goos: darwin
 goarch: arm64
 pkg: github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes
-BenchmarkPollRecords 	       1	3398178250 ns/op	132786712 B/op	   13763 allocs/op
+BenchmarkPollRecords 	       1	3380654666 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132888208 B/op	   13815 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3435248375 ns/op	132792696 B/op	   13748 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3421492833 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3403719666 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3381904750 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3412771375 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3498154791 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3359152166 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3427531208 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3325048167 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3383784291 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877760 B/op	   13799 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3385772083 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3460221375 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3395793292 ns/op	132792632 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3356974916 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877744 B/op	   13799 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3347914292 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3472819708 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3444155708 ns/op	132784832 B/op	   13749 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3478237125 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877744 B/op	   13799 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3378210667 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3466253084 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3361311416 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3332905542 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3389551542 ns/op	132784440 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3371719375 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3451477334 ns/op	132784504 B/op	   13748 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3406518625 ns/op	     59720 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	132877696 B/op	   13798 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
-BenchmarkPollRecords 	       1	3420341917 ns/op	132792632 B/op	   13747 allocs/op
+    client_benchmark_test.go:83: Start topic population
+BenchmarkPollRecords 	       1	3376844791 ns/op	     59721 compressedbytes/op	        97.00 recs/op	    994865 uncompressedbytes/op	136133760 B/op	   14098 allocs/op
 --- BENCH: BenchmarkPollRecords
-    client_benchmark_test.go:73: Start topic population
+    client_benchmark_test.go:83: Start topic population
 PASS
-ok  	github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes	141.652s
+ok  	github.com/utilitywarehouse/franz-go/examples/bench/bench-fetch-max-partition-bytes	141.396s
